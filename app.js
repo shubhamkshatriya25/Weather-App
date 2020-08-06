@@ -1,6 +1,3 @@
-
-
-
 const iconElement = document.querySelector('.weather-icon')
 const tempElement = document.querySelector('.temperature-value p')
 const descElement = document.querySelector('.temperature-description p')
@@ -8,14 +5,13 @@ const locationElement = document.querySelector('.location p')
 const notificationElement = document.querySelector('.notification')
 
 //App Data
-
 const weather = {}
 
 weather.temperature = {
     unit : "celsius"
 }
 
-//APP Consts
+//APP Consts and Variables
 const KELVIN = 273;
 const key = 'dfa637861910f2805421f7129268059a';
 
